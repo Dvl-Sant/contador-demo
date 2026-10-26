@@ -2,7 +2,7 @@
 let visitas = 0;
 
 function registrarVisita() {
-  visitas = visitas++;
+  visitas += 1;
   return visitas;
 }
 
